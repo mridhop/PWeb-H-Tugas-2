@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <script></script>
+    </head>
+    <body>
+        <h1>Kalkulator</h1>
+        <form>
+            <input type="text" id="numfield" name="numfield" value="0" placeholder="Enter number and operator"/>
+            <button type="button" id="calculate" onclick="calculate()">=</button>
+        </form>
+        <div>
+            <button type="button" id="num" onclick="addNum('.')">.</button>
+            <button type="button" class="num" onclick="addNum(0)">0</button>
+            <button type="button" class="num" onclick="addNum(1)">1</button>
+            <button type="button" class="num" onclick="addNum(2)">2</button>
+            <button type="button" class="num" onclick="addNum(3)">3</button>
+            <button type="button" class="num" onclick="addNum(4)">4</button>
+            <button type="button" class="num" onclick="addNum(5)">5</button>
+            <button type="button" class="num" onclick="addNum(6)">6</button>
+            <button type="button" class="num" onclick="addNum(7)">7</button>
+            <button type="button" class="num" onclick="addNum(8)">8</button>
+            <button type="button" id="num" onclick="addNum(9)">9</button>
+        </div>
+        <div>
+            <button type="button" id="num" onclick="addNum('+')">+</button>
+            <button type="button" id="num" onclick="addNum('-')">-</button>
+            <button type="button" id="num" onclick="addNum('*')">*</button>
+            <button type="button" id="num" onclick="addNum('/')">/</button>
+        </div>
+    </body>
+</html>
